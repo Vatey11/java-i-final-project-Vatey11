@@ -45,7 +45,7 @@ public class FrameTyping extends JFrame implements ActionListener, KeyListener {
         new FrameTyping();
     }
 
-     FrameTyping() {
+    FrameTyping() {
         this.setLayout(new BorderLayout());
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         SCREEN_WIDTH=720;
@@ -54,8 +54,8 @@ public class FrameTyping extends JFrame implements ActionListener, KeyListener {
         this.setVisible(true);
         this.setLocationRelativeTo(null);
 
-        button=new JButton("Start");
-        button.setFont(new Font("Pearly Gates",Font.BOLD,30));
+        button=new JButton("START");
+        button.setFont(new Font("MV boli",Font.BOLD,30));
         button.setForeground(Color.black);
         button.setFocusPainted(false);
         button.setVisible(true);
@@ -64,7 +64,7 @@ public class FrameTyping extends JFrame implements ActionListener, KeyListener {
 
         label=new JLabel();
         label.setText("Click the Start Button");
-        label.setFont(new Font("Pearly Gates",Font.BOLD,30));
+        label.setFont(new Font("MV boli",Font.BOLD,30));
         label.setVisible(true);
         label.setOpaque(true);
         label.setHorizontalAlignment(JLabel.CENTER);
@@ -101,7 +101,7 @@ public class FrameTyping extends JFrame implements ActionListener, KeyListener {
     }
 
     public void draw(Graphics g) {
-        g.setFont(new Font("MV Boli", Font.BOLD, 25));
+        g.setFont(new Font("MV boli", Font.BOLD, 25));
 
 
         if (running) {
